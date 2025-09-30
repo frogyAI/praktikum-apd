@@ -5,7 +5,7 @@ biayaAdmin4X = 8
 biayaAdmin6X = 12
 print("masukan nama")
 nama = input()
-if nama == "Erfandi Marselianus":
+if nama == "erfandi marselianus":
     print("masukan nim")
     nim = int(input())
     if nim == 2509106098:
@@ -19,7 +19,7 @@ if nama == "Erfandi Marselianus":
         print("UNTUK OPSI SEKALI BAYAR,TOTALNYA ADALAH |Rp" + str(totalBayar) + "|")
         totalBayar = ukt + float(ukt * biayaAdmin2X) / 100
         cicilan = float(totalBayar) / 2
-        print("UNTUK YANG CICIL 2X,TOTALNYA ADALAH |Rp" + str(totalBayar) + "| dengan membayar besaran cicilan Rp" + str(cicilan) + " sebanyak 2X per semester")
+        print("UNTUK YANG CICIL 2X,TOTALNYA ADALAH |Rp" + str(totalBayar) + "| dengan membayar besaran cicilan |Rp" + str(cicilan) + "| sebanyak 2X per semester")
         totalBayar = ukt + float(ukt * biayaAdmin4X) / 100
         cicilan = float(totalBayar) / 4
         print("UNTUK YANG CICIL 4X,TOTALNYA ADALAH |Rp" + str(totalBayar) + "| dengan membayar besaran cicilan |Rp" + str(cicilan) + "| sebanyak 4X per semester")
